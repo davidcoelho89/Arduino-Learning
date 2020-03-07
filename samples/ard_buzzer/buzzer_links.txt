@@ -1,0 +1,17 @@
+- Gerar Sons em Geral
+
+Pesquisar musicas no padrão RTTL
+
+- Gerar Sons Pic
+
+http://www.qsl.net/yo5ofh/pic/tone_generator.htm
+
+- Gerar Sons Arduino
+
+http://www.arduinoecia.com.br/2013/06/sons-no-arduino.html
+
+http://www.arduinoecia.com.br/2014/02/newtone-alternativa-biblioteca-tone-do.html
+
+https://ferpinheiro.wordpress.com/2011/08/28/tocando-musicas-com-o-arduino/
+
+http://dragaosemchama.com.br/2014/04/player-de-marcha-imperial-8-bitsarduino/

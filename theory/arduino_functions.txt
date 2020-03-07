@@ -1,0 +1,221 @@
+﻿------------ Comments
+
+// this is a single line
+/* this is
+a multiline */
+
+------------ Structure
+
+// Each Arduino sketch must contain the following two functions.
+
+void setup()
+{
+  //this code runs once at the beginning of the code execution.
+}
+void loop()
+{
+  // this code runs repeatedly as long as the board is powered.
+}
+
+------------ Initial
+
+// Sets the mode of the digital I/O pin.
+// Can be: input, output, or an input with an internal pull-up resistor.
+
+pinMode(pin, [INPUT \ OUTPUT \ INPUT_PULLUP]);
+
+// Constants
+
+HIGH / LOW | INPUT / OUTPUT | true / false
+
+------------ Digital I/O
+
+// Digital Resolution: 1 bit (0 or 1) => read and write
+
+// write a 'HIGH' or a 'LOW' value to a digital pin.
+
+digitalWrite(pin, value);
+
+// Read a 'HIGH' or a 'LOW' value from a specified digitalpin
+
+boolean var = digitalRead(pin);
+
+------------ Analog I/O
+
+// Analog Resolution: 	10 bits (0 to 1023) read ('Ax' ports) 
+//			8 bits (0 a 255) write (PWM. See ports with "~")
+
+// Reads the value from the specified analog pin.
+
+int value = analogRead(pin); // integer value from 0 to 1023
+
+// Writes an analog value to a pin (PWM).
+// val = integer value from 0 to 255 (duty cicle)
+// default freq = 1 KHz (pins 5, 6)
+// default freq = 500 Hz (pins 3, 9, 10, 11)
+
+analogWrite(pin, val);
+
+// Sets the reference for analog read
+// type = [DEFAULT / INTERNAL / INTERNAL1V1 / INTERNAL2V56 / EXTERNAL]
+
+analogReference(type)
+
+------------ Advanced I/O
+
+// Generates a square wave of the specified frequency to a pin. 
+// Pin must be one of the PWM (~) pins.
+
+tone(pin, freq);
+
+// Turns off the tone on the pin.
+
+noTone(pin);
+
+// Generates a square wave of the specified freq to a pin for a duration in ms.
+// Pin must be one of the PWM (~) pins.
+
+tone(pin, freq, duration);
+
+------------ Timing
+
+// Pauses the program for the amount of time (in ms)
+
+delay(time_ms);
+
+// Pauses the program for the amount of time (in us)
+
+delayMicroseconds(time_us);
+
+// Returns the number of milliseconds since the board began running
+// max: 4,294,967,295
+
+millis();
+
+// Returns the number of microseconds since the board began running
+// max: 4,294,967,295
+
+micros();
+
+------------ Serial Functions
+
+// Initialize Serial Communication and define its properties
+// define: baud rate / bits / parity / stop bits
+
+Serial.begin(9600, SERIAL_8N1);
+
+// Check if there are any bytes at serial buffer
+// buffer size = 64 bytes
+
+int value = Serial.available();
+if (value <= 0)...
+
+// read first buffer's byte
+
+serialValue = Serial.read();
+
+// Send a byte or an array of bytes through the serial port
+
+serial.write(x)		(byte type)
+serial.print(x)		(transmits an array of bytes)
+serial.println(x)	(transmits a string with a '\n' at the end)
+
+// Other serial functions
+
+if (Serial)
+availableForWrite()
+end()
+find()
+findUntil()
+flush()
+parseFloat()
+parseInt()
+peek()
+readBytes()
+readBytesUntil()
+readString()
+readStringUntil()
+setTimeout()
+serialEvent()
+
+------------ Interruptions
+
+// ToDo - All
+
+------------ Other Functions
+
+// Libraries Add
+
+/* this provides access to special additional functions for things 
+such as servo motors, SD card, wifi, or bluetooth.
+
+#include <libraryname.h>
+
+// Generate random number [0 to 99]
+
+random(100) - numeros aleatorios de 0 a 99
+
+------------ Control Structures
+
+if(condition)
+{
+  // if condition is TRUE, do something here
+}
+else
+{
+  // otherwise, do this
+}
+
+for(initialization; condition; increment)
+{
+  // do this
+}
+
+for(int x = 0; x < 100; x++)
+{
+  println(x);
+}
+
+------------ General Sintax
+
+// Data Types
+
+void 	// nothing is returned
+boolean	// 0, 1, false, true
+char 	// 8 bits: ASCII character
+byte 	// 8 bits: 0 to 255, unsigned
+int 	// 16 bits: 32,768 to 32,767, signed
+long 	// 32 bits: 2,147,483,648 to 2,147,483,647, signed */
+float	// 32 bits, signed decimal
+
+// Mathematical Operators
+
+= 	// assignment
++ 	// addition
+- 	// subtraction
+* 	// multiplication
+/ 	// division
+% 	// modulus
+
+// Logical Operators
+
+== 	// boolean equal to
+!= 	// not equal to
+< 	// less than
+> 	// greater than
+<= 	// less than or equal to
+>= 	// greater than or equal to
+&& 	// Boolean AND
+|| 	// Boolean OR
+! 	// Boolean NOT
+
+// Bitwise Operators
+
+& 	// bitwise AND
+| 	// bitwise OR
+^ 	// bitwise XOR
+~ 	// bitwise INVERT
+var<<n	// bitwise shift left by n bits
+var>>n	// bitwise shift right by n bits
+
+------------ End

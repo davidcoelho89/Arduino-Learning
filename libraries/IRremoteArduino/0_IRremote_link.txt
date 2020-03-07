@@ -1,0 +1,3 @@
+https://github.com/z3t0/Arduino-IRremote
+
+http://www.arduinoecia.com.br/2013/09/controle-remoto-ir-no-arduino.html

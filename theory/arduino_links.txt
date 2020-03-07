@@ -1,0 +1,101 @@
+-----------------COMPRA DE SHIELDS---------------------
+
+http://www.autocorerobotica.com.br/
+http://autocorerobotica.blog.br/
+http://www.skyrobotics.com.br/
+http://www.martaduino.com.br/
+
+------------------LINKS INICIAIS-----------------------
+
+- Link Principal
+http://www.arduino.cc
+
+- Arduino x PIC (diferenças)
+https://www.youtube.com/watch?v=AVFgd_pclqA#t=457
+
+- Tutoriais Iniciais
+http://www.embarcados.com.br/arduino-uno/
+http://www.embarcados.com.br/arduino-primeiros-passos/
+http://www.hobbytronics.co.uk/tutorials-code/arduino-tutorials/arduino-tutorial1-flash-led
+
+- Video Aulas (Renato Aloi)
+https://www.youtube.com/watch?v=inYEsklZXNE
+
+------------------FUNCIONALIDADES----------------------
+
+DIGITAL INPUT and OUTPUT
+
+http://www.embarcados.com.br/arduino-entradasaidas-digitais/
+
+ANALOG INPUT (0 - 1023)
+
+http://www.embarcados.com.br/arduino-entradas-analogicas/
+
+ANALOG OUTPUT PWM (0 - 255)
+
+http://www.embarcados.com.br/arduino-saidas-pwm/
+
+ANALOG OUTPUT - CHANGE PWM freq
+
+http://labdegaragem.com/forum/topics/alterar-a-frequencia-do-pwm
+https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM
+http://arduino-info.wikispaces.com/Arduino-PWM-Frequency
+
+SERIAL
+
+http://www.embarcados.com.br/arduino-comunicacao-serial/
+http://blog.vidadesilicio.com.br/arduino/arduino-basico/comunicacao-serial/
+
+EEPROM - Armazernar dados
+
+http://www.cursodearduino.com.br/apostila/apostila-rev4.pdf
+
+TIMING
+
+http://www.arduino.cc/en/Tutorial/BlinkWithoutDelay
+
+TIMER INTERRUPTIONS
+
+http://automatobr.blogspot.com.br/2012/12/tutorial-interrupcoes-de-temo-timer.html
+http://arduinoprog.blogspot.com.br/2014/08/interrupcao-no-arduino.html
+http://labdegaragem.com/profiles/blogs/tutorial-executando-fun-es-em-intervalos-de-tempo-fixos-timers
+http://playground.arduino.cc/Code/Timer1
+
+EXTERNAL INTERRUPTION
+
+http://blog.vidadesilicio.com.br/arduino/entendendo-e-usando-a-interrupcao-externa-no-seu-arduino/
+http://blog.vidadesilicio.com.br/arduino/pcint-interrupcoes-por-mudanca-de-estado/
+
+--------------INTERFACE COM SOFTWARES------------------
+
+ARDUINO + ELIPSE SCADA
+http://blog.elipse.com.br/blog/2014/7/28/tutorial-elipse-mobile-conexo-com-arduino?utm_source=Elipse+Software+Newsletter&utm_campaign=3025279478-Ardu_no_e_Elipse_Mobile7_29_2014&utm_medium=email&utm_term=0_e1b5ed1e6f-3025279478-65645237&goal=0_e1b5ed1e6f-3025279478-65645237
+
+ARDUINO + SCADABR
+http://www.embarcados.com.br/arduino-e-scadabr/
+
+ARDUINO + PROCESSING
+http://playground.arduino.cc/interfacing/processing
+
+ARDUINO + LABVIEW
+http://mechatronicsfly.com/forum/viewtopic.php?f=22&t=149
+
+ARDUINO + MATLAB
+http://www.mathworks.com/videos/using-matlab-and-arduino-for-motor-control-100737.html
+http://www.mathworks.com/help/supportpkg/arduino/examples/drive-with-pid-control.html?s_eid=PSM_12972
+
+----------------------PROJETOS-------------------------
+
+ARDUINO EM PROTOBOARD
+http://labdegaragem.com/profiles/blogs/tutorial-como-montar-o-garagino-proto-na-protoboard-e-como-utiliz
+http://www.arduinoecia.com.br/2014/01/gravando-bootloader-no-atmega328-usando.html
+http://www.arduinoecia.com.br/2014/01/montando-arduino-na-protoboard.html
+
+ARDUINO AVANÇADO
+http://wirelessarduino.co.nf/
+http://labdegaragem.com/page/avancado
+http://arduino.labdegaragem.com/Guia_preview/avancados.html
+http://www.cooking-hacks.com/documentation/tutorials/ehealth-biometric-sensor-platform-arduino-raspberry-pi-medical
+http://articles.electronicsinfoline.com/15-arduino-projects-that-you-will-love-to-see/
+
+------------------------END----------------------------

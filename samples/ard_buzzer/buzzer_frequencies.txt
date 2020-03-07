@@ -1,0 +1,15 @@
+razao de "raiz 12 de 2" entre frequencias (entre semitons)
+Frequencia do C4 é o dobro da C3 (12 semitons de distancia)
+
+F3	349
+F#3	370
+G3	392
+G#3	415
+A3	440
+A#3	466
+B3	494
+C4	524
+
+-> Frequencia para espantar mosquitos (1 kHz)
+
+-> Frequencia para espantar cachorros (17 - 18 kHz)

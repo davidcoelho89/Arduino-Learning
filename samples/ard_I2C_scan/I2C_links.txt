@@ -1,0 +1,4 @@
+http://www.arduinobr.com/arduino/i2c-protocolo-de-comunicacao/
+http://tronixstuff.com/2010/10/20/tutorial-arduino-and-the-i2c-bus/
+
+

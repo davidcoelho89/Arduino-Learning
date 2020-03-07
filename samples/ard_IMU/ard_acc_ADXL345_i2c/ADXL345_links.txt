@@ -1,0 +1,4 @@
+
+https://www.sparkfun.com/tutorials/240
+http://codeyoung.blogspot.com.br/2009/11/adxl345-accelerometer-breakout-board.html
+https://learn.adafruit.com/adxl345-digital-accelerometer/programming

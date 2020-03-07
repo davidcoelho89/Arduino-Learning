@@ -1,0 +1,73 @@
+---------------------- CONCEITOS
+
+Accelerometer (ACC)
+
+https://pt.wikipedia.org/wiki/Aceler%C3%B4metro
+- mede aceleração linear (em até 3 eixos: x, y e z), porém sempre soma a aceleração da gravidade na resposta;
+- utilizado para medir deslocamento
+- princípio físico: (F = m.a -> a = F / m)
+
+Gyroscope (GYR)
+
+https://pt.wikipedia.org/wiki/Girosc%C3%B3pio
+- mede aceleração angular (em até 3 eixos: pitch - x, roll - y e yaw - z);
+- utilizado para verificar mudança de direção
+- princípio físico: Precessão
+
+Magnetometer (MAG)
+
+https://pt.wikipedia.org/wiki/Magnet%C3%B3metro
+- mede posição relação à um campo magnético 
+- geralmente aplicado para o campo magnético da Terra
+- é possível utilizá-lo como uma bússola tridimensional.
+
+Barometer (BAR)
+
+https://pt.wikipedia.org/wiki/Bar%C3%B3metro
+- mede pressão atmosférica (barométrica)
+- pode ser aplicado para medir altitude
+
+Inertial measurement unit (IMU)
+
+- unidade de medição inercial
+- contém, pelo menos, um conjunto de três sensores
+	(acelerômetro, giroscópio, magnetômetro)
+- pode conter, também, um barômetro (mede altitude/pressão atm)
+
+---------------------- IMU
+
+-> GY-87	(IMU: 10 DOF -> ACC + GYR + MAG + BAR)
+http://hotresistor.blogspot.com.br/2015/09/interfacing-arduino-with-gy-87.html
+http://www.control.aau.dk/~jdn/edu/doc/arduino/gy80gy87/
+http://forum.arduino.cc/index.php?topic=223345.0
+https://www.youtube.com/watch?v=x2vVsO5Hr2I
+
+-> MPU-6050	(6 DOF -> ACC + GYR)
+http://blog.filipeflop.com/sensores/tutorial-acelerometro-mpu6050-arduino.html
+http://www.embarcados.com.br/arduino-acelerometro-giroscopio/
+http://diyhacking.com/arduino-mpu-6050-imu-sensor-tutorial/
+
+-> GY-80 	(IMU: 10 DOF -> ACC + GYR + MAG + BAR)
+http://www.filipeflop.com/pd-123084-sensor-gy-80-10-dof-acelerometro-giroscopio-magnetometro-barometro.html
+http://www.arduinoecia.com.br/2014/09/sensor-gy-80-acelerometro-bussola-barometro.html
+
+- ADXL345 	(3 DOF -> 3-axis accelerometer)
+https://www.sparkfun.com/tutorials/240
+http://codeyoung.blogspot.com.br/2009/11/adxl345-accelerometer-breakout-board.html
+https://learn.adafruit.com/adxl345-digital-accelerometer/programming
+
+- L3G4200D  	(3 DOF -> 3-axis gyroscope)
+http://www2.st.com/content/st_com/en/products/mems-and-sensors/gyroscopes/l3g4200d.html
+
+- HMC5883L	(3 DOF -> 3-axis Magnetometer)
+http://labdegaragem.com/profiles/blogs/tutorial-bussola-eletronica-com-hmc5883l
+
+- BMP085 / 180	(2 DOF -> Barometer + Temperature Sensor)
+http://blog.filipeflop.com/sensores/temperatura-pressao-bmp180-arduino.html
+http://blog.filipeflop.com/sensores/temperatura-pressao-bmp180-arduino.html
+
+-> MMA7361	(3 DOF -> ACC)
+https://github.com/jeroendoggen/Arduino-MMA7361-library
+http://blog.filipeflop.com/sensores/acelerometro-3-eixos-mma7361-arduino.html
+http://www.arduinoecia.com.br/2013/09/ligando-acelerometro-mma7361-no-arduino.html
+http://eletronicos.mercadolivre.com.br/pecas-componentes-eletricos/acelerometro-mma7361

@@ -1,0 +1,6 @@
+
+Arduino Duemilanove
+http://arduino.cc/en/Main/arduinoBoardDuemilanove
+
+Arduino Nano ou a versão SMD - Driver CH340
+http://www.wch.cn/download/CH341SER_EXE.html

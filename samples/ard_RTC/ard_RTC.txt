@@ -1,0 +1,4 @@
+- DS1307 (Real Time Clock):
+http://atran.web.ugm.ac.id/2010/01/play-with-rtc-ds1307-avr-mega32-codevision-avr/
+
+
